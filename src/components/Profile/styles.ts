@@ -8,8 +8,35 @@ export const ProfileContainer = styled.div`
   background-color: ${(props) => props.theme["blue-700"]};
   padding: 2rem;
 
-  img {
+  #avatar {
     border-radius: 8px;
+  }
+
+  div {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+
+    :first-child {
+      flex: 1;
+    }
+
+    section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 0.5rem;
+
+      span {
+        color: ${(props) => props.theme.blue};
+        text-transform: uppercase;
+        font-size: 0.75rem;
+      }
+    }
+  }
+
+  h1 {
+    color: white;
   }
 `;
 
@@ -46,7 +73,8 @@ export const ProfileSectionContainer = styled.section`
     img {
       width: 1.125rem;
       height: 1.125rem;
-      opacity: 0.3;
+      opacity: 0.8;
+      border-radius: 8px;
     }
   }
 `;

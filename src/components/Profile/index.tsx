@@ -1,6 +1,8 @@
+import ArrowUp from "../../assets/arrow-up.svg";
 import BuildingIcon from "../../assets/building.svg";
 import GitHubIcon from "../../assets/github.svg";
 import UserGroupIcon from "../../assets/user-group.svg";
+
 import { GitHubUser } from "../../pages/Home";
 import { ProfileContainer, ProfileSectionContainer } from "./styles";
 
@@ -11,10 +13,17 @@ interface ProfileProps {
 export function Profile({ gitHubUser }: ProfileProps) {
   return (
     <ProfileContainer>
-      <img src={gitHubUser.avatar_url} width={148} height={148} />
+      <img src={gitHubUser.avatar_url} width={148} height={148} id="avatar" />
       <ProfileSectionContainer>
         <article>
-          <h1>Lucas Soler</h1>
+          <div>
+            <h1>Lucas Soler</h1>
+            <section>
+              <a href="https://github.com/lucas-soler" target="_blank">
+                <span>GitHub</span> <img src={ArrowUp} />
+              </a>
+            </section>
+          </div>
           <p>{gitHubUser.bio}</p>
         </article>
         <footer>

@@ -68,7 +68,15 @@ export const GlobalStyle = createGlobalStyle`
     font-family: 'Nunito', sans-serif;
   }
 
-  
+  a {
+    color: ${(props) => props.theme.blue};
+
+   
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
   
 
 `;
