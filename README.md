@@ -44,8 +44,6 @@ This project is the third ignite Rocketseat challenge from the reactjs study pla
 
 The user can list your issues and profile user.
 
-👉 Link to Access: <a href="https://github-blog-vilmarsitiodigital.vercel.app">https://github-blog-vilmarsitiodigital.vercel.app</a>
-
 ## 🚀 Technologies
 
 Technologies that I used to develop this api
