@@ -1,27 +1,114 @@
-# React + TypeScript + Vite
+<h1 align="center">
+  <img alt="Ignite Feed" src="/github_blog.png"  width="100%" />
+</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h3 align="center">
+  Web Application for Github Blog
+</h3>
 
-Currently, two official plugins are available:
+<p align="center">List your issues and profile user</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<p align="center">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/vilmarsitiodigital/github-blog?color=%232677a8">
 
-## Expanding the ESLint configuration
+  <a href="https://www.linkedin.com/in/vilmarbatista/" target="_blank" rel="noopener noreferrer">
+    <img alt="Made by" src="https://img.shields.io/badge/made%20by-vilmar-2677a8">
+  </a>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/vilmarsitiodigital/github-blog?color=%232677a8">
 
-- Configure the top-level `parserOptions` property like this:
+  <a href="https://github.com/vilmarsitiodigital/github-blog/commits/main">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/vilmarsitiodigital/github-blog?color=%232677a8">
+  </a>
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+  <a href="https://github.com/vilmarsitiodigital/github-blog/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/vilmarsitiodigital/github-blog?color=%232677a8">
+  </a>
+
+  <a href="https://github.com/vilmarsitiodigital/github-blog/blob/main/LICENSE">
+    <img alt="GitHub" src="https://img.shields.io/github/license/vilmarsitiodigital/github-blog?color=%232677a8">
+  </a>
+</p>
+
+<p align="center">
+  <a href="#-about-the-project">About the project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-getting-started">Getting started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-how-to-contribute">How to contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-license">License</a>
+</p>
+
+## ✅ About the project
+
+This project is the third ignite Rocketseat challenge from the reactjs study platform.
+
+The user can list your issues and profile user.
+
+👉 Link to Access: <a href="https://github-blog-vilmarsitiodigital.vercel.app">https://github-blog-vilmarsitiodigital.vercel.app</a>
+
+## 🚀 Technologies
+
+Technologies that I used to develop this api
+
+- [React JS](https://pt-br.reactjs.org/)
+- [Vite JS](https://vitejs.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Styled Components](https://styled-components.com/)
+- [Axios](https://axios-http.com/)
+
+## 💻 Getting started
+
+**Clone the project and access the folder**
+
+```bash
+$ git clone https://github.com/vilmarsitiodigital/github-blog.git && cd github-blog
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+**Follow the steps below**
+
+```bash
+# Install the dependencies
+$ npm i
+
+# To finish, run
+$ npm run dev
+
+# Well done, project is started!
+```
+
+## 🤔 How to contribute
+
+**Make a fork of this repository**
+
+```bash
+# Fork using GitHub official command line
+# If you don't have the GitHub CLI, use the web site to do that.
+
+$ gh repo fork vilmarsitiodigital/github-blog
+```
+
+**Follow the steps below**
+
+```bash
+# Clone your fork
+$ git clone your-fork-url && cd github-blog
+
+# Create a branch with your feature
+$ git checkout -b my-feature
+
+# Make the commit with your changes
+$ git commit -m 'Feature: My new feature'
+
+# Send the code to your remote branch
+$ git push origin my-feature
+```
+
+After your pull request is merged, you can delete your branch
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+by Lucas Soler 🤝 [See my linkedin](https://www.linkedin.com/in/lucas-p-soler/)
